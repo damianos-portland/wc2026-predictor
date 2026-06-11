@@ -1,0 +1,1000 @@
+{
+ "teams": {
+  "ALG": {
+   "name": "Algeria",
+   "flag": "🇩🇿",
+   "rank": 42
+  },
+  "ARG": {
+   "name": "Argentina",
+   "flag": "🇦🇷",
+   "rank": 1
+  },
+  "AUS": {
+   "name": "Australia",
+   "flag": "🇦🇺",
+   "rank": 24
+  },
+  "AUT": {
+   "name": "Austria",
+   "flag": "🇦🇹",
+   "rank": 22
+  },
+  "BEL": {
+   "name": "Belgium",
+   "flag": "🇧🇪",
+   "rank": 8
+  },
+  "BIH": {
+   "name": "Bosnia & Herzegovina",
+   "flag": "🇧🇦",
+   "rank": 41
+  },
+  "BRA": {
+   "name": "Brazil",
+   "flag": "🇧🇷",
+   "rank": 5
+  },
+  "CAN": {
+   "name": "Canada",
+   "flag": "🇨🇦",
+   "rank": 30
+  },
+  "CIV": {
+   "name": "Côte d'Ivoire",
+   "flag": "🇨🇮",
+   "rank": 25
+  },
+  "COD": {
+   "name": "DR Congo",
+   "flag": "🇨🇩",
+   "rank": 35
+  },
+  "COL": {
+   "name": "Colombia",
+   "flag": "🇨🇴",
+   "rank": 12
+  },
+  "CPV": {
+   "name": "Cape Verde",
+   "flag": "🇨🇻",
+   "rank": 46
+  },
+  "CRO": {
+   "name": "Croatia",
+   "flag": "🇭🇷",
+   "rank": 10
+  },
+  "CUW": {
+   "name": "Curaçao",
+   "flag": "🇨🇼",
+   "rank": 47
+  },
+  "CZE": {
+   "name": "Czechia",
+   "flag": "🇨🇿",
+   "rank": 23
+  },
+  "ECU": {
+   "name": "Ecuador",
+   "flag": "🇪🇨",
+   "rank": 21
+  },
+  "EGY": {
+   "name": "Egypt",
+   "flag": "🇪🇬",
+   "rank": 28
+  },
+  "ENG": {
+   "name": "England",
+   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "rank": 4
+  },
+  "ESP": {
+   "name": "Spain",
+   "flag": "🇪🇸",
+   "rank": 2
+  },
+  "FRA": {
+   "name": "France",
+   "flag": "🇫🇷",
+   "rank": 3
+  },
+  "GER": {
+   "name": "Germany",
+   "flag": "🇩🇪",
+   "rank": 9
+  },
+  "GHA": {
+   "name": "Ghana",
+   "flag": "🇬🇭",
+   "rank": 37
+  },
+  "HAI": {
+   "name": "Haiti",
+   "flag": "🇭🇹",
+   "rank": 48
+  },
+  "IRN": {
+   "name": "Iran",
+   "flag": "🇮🇷",
+   "rank": 19
+  },
+  "IRQ": {
+   "name": "Iraq",
+   "flag": "🇮🇶",
+   "rank": 39
+  },
+  "JOR": {
+   "name": "Jordan",
+   "flag": "🇯🇴",
+   "rank": 40
+  },
+  "JPN": {
+   "name": "Japan",
+   "flag": "🇯🇵",
+   "rank": 17
+  },
+  "KOR": {
+   "name": "South Korea",
+   "flag": "🇰🇷",
+   "rank": 20
+  },
+  "KSA": {
+   "name": "Saudi Arabia",
+   "flag": "🇸🇦",
+   "rank": 32
+  },
+  "MAR": {
+   "name": "Morocco",
+   "flag": "🇲🇦",
+   "rank": 11
+  },
+  "MEX": {
+   "name": "Mexico",
+   "flag": "🇲🇽",
+   "rank": 15
+  },
+  "NED": {
+   "name": "Netherlands",
+   "flag": "🇳🇱",
+   "rank": 7
+  },
+  "NOR": {
+   "name": "Norway",
+   "flag": "🇳🇴",
+   "rank": 26
+  },
+  "NZL": {
+   "name": "New Zealand",
+   "flag": "🇳🇿",
+   "rank": 45
+  },
+  "PAN": {
+   "name": "Panama",
+   "flag": "🇵🇦",
+   "rank": 36
+  },
+  "PAR": {
+   "name": "Paraguay",
+   "flag": "🇵🇾",
+   "rank": 34
+  },
+  "POR": {
+   "name": "Portugal",
+   "flag": "🇵🇹",
+   "rank": 6
+  },
+  "QAT": {
+   "name": "Qatar",
+   "flag": "🇶🇦",
+   "rank": 31
+  },
+  "RSA": {
+   "name": "South Africa",
+   "flag": "🇿🇦",
+   "rank": 44
+  },
+  "SCO": {
+   "name": "Scotland",
+   "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+   "rank": 33
+  },
+  "SEN": {
+   "name": "Senegal",
+   "flag": "🇸🇳",
+   "rank": 18
+  },
+  "SUI": {
+   "name": "Switzerland",
+   "flag": "🇨🇭",
+   "rank": 16
+  },
+  "SWE": {
+   "name": "Sweden",
+   "flag": "🇸🇪",
+   "rank": 27
+  },
+  "TUN": {
+   "name": "Tunisia",
+   "flag": "🇹🇳",
+   "rank": 29
+  },
+  "TUR": {
+   "name": "Turkey",
+   "flag": "🇹🇷",
+   "rank": 43
+  },
+  "URU": {
+   "name": "Uruguay",
+   "flag": "🇺🇾",
+   "rank": 13
+  },
+  "USA": {
+   "name": "United States",
+   "flag": "🇺🇸",
+   "rank": 14
+  },
+  "UZB": {
+   "name": "Uzbekistan",
+   "flag": "🇺🇿",
+   "rank": 38
+  }
+ },
+ "matches": [
+  {
+   "n": 1,
+   "group": "A",
+   "date": "2026-06-11",
+   "time": "1:00 p.m. UTC−6",
+   "home": "MEX",
+   "away": "RSA",
+   "venue": "Estadio Azteca, Mexico City",
+   "referee": "Wilton Sampaio"
+  },
+  {
+   "n": 2,
+   "group": "A",
+   "date": "2026-06-11",
+   "time": "8:00 p.m. UTC−6",
+   "home": "KOR",
+   "away": "CZE",
+   "venue": "Estadio Akron, Zapopan",
+   "referee": "Amin Omar"
+  },
+  {
+   "n": 3,
+   "group": "B",
+   "date": "2026-06-12",
+   "time": "3:00 p.m. UTC−4",
+   "home": "CAN",
+   "away": "BIH",
+   "venue": "BMO Field, Toronto",
+   "referee": "Facundo Tello"
+  },
+  {
+   "n": 4,
+   "group": "D",
+   "date": "2026-06-12",
+   "time": "6:00 p.m. UTC−7",
+   "home": "USA",
+   "away": "PAR",
+   "venue": "SoFi Stadium, Inglewood",
+   "referee": "Danny Makkelie"
+  },
+  {
+   "n": 5,
+   "group": "C",
+   "date": "2026-06-13",
+   "time": "9:00 p.m. UTC−4",
+   "home": "HAI",
+   "away": "SCO",
+   "venue": "Gillette Stadium, Foxborough",
+   "referee": "Mustapha Ghorbal"
+  },
+  {
+   "n": 6,
+   "group": "D",
+   "date": "2026-06-13",
+   "time": "9:00 p.m. UTC−7",
+   "home": "AUS",
+   "away": "TUR",
+   "venue": "BC Place, Vancouver",
+   "referee": "Jesús Valenzuela"
+  },
+  {
+   "n": 7,
+   "group": "C",
+   "date": "2026-06-13",
+   "time": "6:00 p.m. UTC−4",
+   "home": "BRA",
+   "away": "MAR",
+   "venue": "MetLife Stadium, East Rutherford",
+   "referee": "Slavko Vinčić"
+  },
+  {
+   "n": 8,
+   "group": "B",
+   "date": "2026-06-13",
+   "time": "12:00 p.m. UTC−7",
+   "home": "QAT",
+   "away": "SUI",
+   "venue": "Levi's Stadium, Santa Clara",
+   "referee": "Saíd Martínez"
+  },
+  {
+   "n": 9,
+   "group": "E",
+   "date": "2026-06-14",
+   "time": "7:00 p.m. UTC−4",
+   "home": "CIV",
+   "away": "ECU",
+   "venue": "Lincoln Financial Field, Philadelphia",
+   "referee": null
+  },
+  {
+   "n": 10,
+   "group": "E",
+   "date": "2026-06-14",
+   "time": "12:00 p.m. UTC−5",
+   "home": "GER",
+   "away": "CUW",
+   "venue": "NRG Stadium, Houston",
+   "referee": null
+  },
+  {
+   "n": 11,
+   "group": "F",
+   "date": "2026-06-14",
+   "time": "3:00 p.m. UTC−5",
+   "home": "NED",
+   "away": "JPN",
+   "venue": "AT&T Stadium, Arlington",
+   "referee": null
+  },
+  {
+   "n": 12,
+   "group": "F",
+   "date": "2026-06-14",
+   "time": "8:00 p.m. UTC−6",
+   "home": "SWE",
+   "away": "TUN",
+   "venue": "Estadio BBVA, Guadalupe",
+   "referee": null
+  },
+  {
+   "n": 13,
+   "group": "H",
+   "date": "2026-06-15",
+   "time": "6:00 p.m. UTC−4",
+   "home": "KSA",
+   "away": "URU",
+   "venue": "Hard Rock Stadium, Miami Gardens",
+   "referee": null
+  },
+  {
+   "n": 14,
+   "group": "H",
+   "date": "2026-06-15",
+   "time": "12:00 p.m. UTC−4",
+   "home": "ESP",
+   "away": "CPV",
+   "venue": "Mercedes-Benz Stadium, Atlanta",
+   "referee": null
+  },
+  {
+   "n": 15,
+   "group": "G",
+   "date": "2026-06-15",
+   "time": "6:00 p.m. UTC−7",
+   "home": "IRN",
+   "away": "NZL",
+   "venue": "SoFi Stadium, Inglewood",
+   "referee": null
+  },
+  {
+   "n": 16,
+   "group": "G",
+   "date": "2026-06-15",
+   "time": "12:00 p.m. UTC−7",
+   "home": "BEL",
+   "away": "EGY",
+   "venue": "Lumen Field, Seattle",
+   "referee": null
+  },
+  {
+   "n": 17,
+   "group": "I",
+   "date": "2026-06-16",
+   "time": "3:00 p.m. UTC−4",
+   "home": "FRA",
+   "away": "SEN",
+   "venue": "MetLife Stadium, East Rutherford",
+   "referee": null
+  },
+  {
+   "n": 18,
+   "group": "I",
+   "date": "2026-06-16",
+   "time": "6:00 p.m. UTC−4",
+   "home": "IRQ",
+   "away": "NOR",
+   "venue": "Gillette Stadium, Foxborough",
+   "referee": null
+  },
+  {
+   "n": 19,
+   "group": "J",
+   "date": "2026-06-16",
+   "time": "8:00 p.m. UTC−5",
+   "home": "ARG",
+   "away": "ALG",
+   "venue": "Arrowhead Stadium, Kansas City",
+   "referee": null
+  },
+  {
+   "n": 20,
+   "group": "J",
+   "date": "2026-06-16",
+   "time": "9:00 p.m. UTC−7",
+   "home": "AUT",
+   "away": "JOR",
+   "venue": "Levi's Stadium, Santa Clara",
+   "referee": null
+  },
+  {
+   "n": 21,
+   "group": "L",
+   "date": "2026-06-17",
+   "time": "7:00 p.m. UTC−4",
+   "home": "GHA",
+   "away": "PAN",
+   "venue": "BMO Field, Toronto",
+   "referee": null
+  },
+  {
+   "n": 22,
+   "group": "L",
+   "date": "2026-06-17",
+   "time": "3:00 p.m. UTC−5",
+   "home": "ENG",
+   "away": "CRO",
+   "venue": "AT&T Stadium, Arlington",
+   "referee": null
+  },
+  {
+   "n": 23,
+   "group": "K",
+   "date": "2026-06-17",
+   "time": "12:00 p.m. UTC−5",
+   "home": "POR",
+   "away": "COD",
+   "venue": "NRG Stadium, Houston",
+   "referee": null
+  },
+  {
+   "n": 24,
+   "group": "K",
+   "date": "2026-06-17",
+   "time": "8:00 p.m. UTC−6",
+   "home": "UZB",
+   "away": "COL",
+   "venue": "Estadio Azteca, Mexico City",
+   "referee": null
+  },
+  {
+   "n": 25,
+   "group": "A",
+   "date": "2026-06-18",
+   "time": "12:00 p.m. UTC−4",
+   "home": "CZE",
+   "away": "RSA",
+   "venue": "Mercedes-Benz Stadium, Atlanta",
+   "referee": null
+  },
+  {
+   "n": 26,
+   "group": "B",
+   "date": "2026-06-18",
+   "time": "12:00 p.m. UTC−7",
+   "home": "SUI",
+   "away": "BIH",
+   "venue": "SoFi Stadium, Inglewood",
+   "referee": null
+  },
+  {
+   "n": 27,
+   "group": "B",
+   "date": "2026-06-18",
+   "time": "3:00 p.m. UTC−7",
+   "home": "CAN",
+   "away": "QAT",
+   "venue": "BC Place, Vancouver",
+   "referee": null
+  },
+  {
+   "n": 28,
+   "group": "A",
+   "date": "2026-06-18",
+   "time": "7:00 p.m. UTC−6",
+   "home": "MEX",
+   "away": "KOR",
+   "venue": "Estadio Akron, Zapopan",
+   "referee": null
+  },
+  {
+   "n": 29,
+   "group": "C",
+   "date": "2026-06-19",
+   "time": "8:30 p.m. UTC−4",
+   "home": "BRA",
+   "away": "HAI",
+   "venue": "Lincoln Financial Field, Philadelphia",
+   "referee": null
+  },
+  {
+   "n": 30,
+   "group": "C",
+   "date": "2026-06-19",
+   "time": "6:00 p.m. UTC−4",
+   "home": "SCO",
+   "away": "MAR",
+   "venue": "Gillette Stadium, Foxborough",
+   "referee": null
+  },
+  {
+   "n": 31,
+   "group": "D",
+   "date": "2026-06-19",
+   "time": "8:00 p.m. UTC−7",
+   "home": "TUR",
+   "away": "PAR",
+   "venue": "Levi's Stadium, Santa Clara",
+   "referee": null
+  },
+  {
+   "n": 32,
+   "group": "D",
+   "date": "2026-06-19",
+   "time": "12:00 p.m. UTC−7",
+   "home": "USA",
+   "away": "AUS",
+   "venue": "Lumen Field, Seattle",
+   "referee": null
+  },
+  {
+   "n": 33,
+   "group": "E",
+   "date": "2026-06-20",
+   "time": "4:00 p.m. UTC−4",
+   "home": "GER",
+   "away": "CIV",
+   "venue": "BMO Field, Toronto",
+   "referee": null
+  },
+  {
+   "n": 34,
+   "group": "E",
+   "date": "2026-06-20",
+   "time": "7:00 p.m. UTC−5",
+   "home": "ECU",
+   "away": "CUW",
+   "venue": "Arrowhead Stadium, Kansas City",
+   "referee": null
+  },
+  {
+   "n": 35,
+   "group": "F",
+   "date": "2026-06-20",
+   "time": "12:00 p.m. UTC−5",
+   "home": "NED",
+   "away": "SWE",
+   "venue": "NRG Stadium, Houston",
+   "referee": null
+  },
+  {
+   "n": 36,
+   "group": "F",
+   "date": "2026-06-20",
+   "time": "10:00 p.m. UTC−6",
+   "home": "TUN",
+   "away": "JPN",
+   "venue": "Estadio BBVA, Guadalupe",
+   "referee": null
+  },
+  {
+   "n": 37,
+   "group": "H",
+   "date": "2026-06-21",
+   "time": "6:00 p.m. UTC−4",
+   "home": "URU",
+   "away": "CPV",
+   "venue": "Hard Rock Stadium, Miami Gardens",
+   "referee": null
+  },
+  {
+   "n": 38,
+   "group": "H",
+   "date": "2026-06-21",
+   "time": "12:00 p.m. UTC−4",
+   "home": "ESP",
+   "away": "KSA",
+   "venue": "Mercedes-Benz Stadium, Atlanta",
+   "referee": null
+  },
+  {
+   "n": 39,
+   "group": "G",
+   "date": "2026-06-21",
+   "time": "12:00 p.m. UTC−7",
+   "home": "BEL",
+   "away": "IRN",
+   "venue": "SoFi Stadium, Inglewood",
+   "referee": null
+  },
+  {
+   "n": 40,
+   "group": "G",
+   "date": "2026-06-21",
+   "time": "6:00 p.m. UTC−7",
+   "home": "NZL",
+   "away": "EGY",
+   "venue": "BC Place, Vancouver",
+   "referee": null
+  },
+  {
+   "n": 41,
+   "group": "I",
+   "date": "2026-06-22",
+   "time": "8:00 p.m. UTC−4",
+   "home": "NOR",
+   "away": "SEN",
+   "venue": "MetLife Stadium, East Rutherford",
+   "referee": null
+  },
+  {
+   "n": 42,
+   "group": "I",
+   "date": "2026-06-22",
+   "time": "5:00 p.m. UTC−4",
+   "home": "FRA",
+   "away": "IRQ",
+   "venue": "Lincoln Financial Field, Philadelphia",
+   "referee": null
+  },
+  {
+   "n": 43,
+   "group": "J",
+   "date": "2026-06-22",
+   "time": "12:00 p.m. UTC−5",
+   "home": "ARG",
+   "away": "AUT",
+   "venue": "AT&T Stadium, Arlington",
+   "referee": null
+  },
+  {
+   "n": 44,
+   "group": "J",
+   "date": "2026-06-22",
+   "time": "8:00 p.m. UTC−7",
+   "home": "JOR",
+   "away": "ALG",
+   "venue": "Levi's Stadium, Santa Clara",
+   "referee": null
+  },
+  {
+   "n": 45,
+   "group": "L",
+   "date": "2026-06-23",
+   "time": "4:00 p.m. UTC−4",
+   "home": "ENG",
+   "away": "GHA",
+   "venue": "Gillette Stadium, Foxborough",
+   "referee": null
+  },
+  {
+   "n": 46,
+   "group": "L",
+   "date": "2026-06-23",
+   "time": "7:00 p.m. UTC−4",
+   "home": "PAN",
+   "away": "CRO",
+   "venue": "BMO Field, Toronto",
+   "referee": null
+  },
+  {
+   "n": 47,
+   "group": "K",
+   "date": "2026-06-23",
+   "time": "12:00 p.m. UTC−5",
+   "home": "POR",
+   "away": "UZB",
+   "venue": "NRG Stadium, Houston",
+   "referee": null
+  },
+  {
+   "n": 48,
+   "group": "K",
+   "date": "2026-06-23",
+   "time": "8:00 p.m. UTC−6",
+   "home": "COL",
+   "away": "COD",
+   "venue": "Estadio Akron, Zapopan",
+   "referee": null
+  },
+  {
+   "n": 49,
+   "group": "C",
+   "date": "2026-06-24",
+   "time": "6:00 p.m. UTC−4",
+   "home": "SCO",
+   "away": "BRA",
+   "venue": "Hard Rock Stadium, Miami Gardens",
+   "referee": null
+  },
+  {
+   "n": 50,
+   "group": "C",
+   "date": "2026-06-24",
+   "time": "6:00 p.m. UTC−4",
+   "home": "MAR",
+   "away": "HAI",
+   "venue": "Mercedes-Benz Stadium, Atlanta",
+   "referee": null
+  },
+  {
+   "n": 51,
+   "group": "B",
+   "date": "2026-06-24",
+   "time": "12:00 p.m. UTC−7",
+   "home": "SUI",
+   "away": "CAN",
+   "venue": "BC Place, Vancouver",
+   "referee": null
+  },
+  {
+   "n": 52,
+   "group": "B",
+   "date": "2026-06-24",
+   "time": "12:00 p.m. UTC−7",
+   "home": "BIH",
+   "away": "QAT",
+   "venue": "Lumen Field, Seattle",
+   "referee": null
+  },
+  {
+   "n": 53,
+   "group": "A",
+   "date": "2026-06-24",
+   "time": "7:00 p.m. UTC−6",
+   "home": "CZE",
+   "away": "MEX",
+   "venue": "Estadio Azteca, Mexico City",
+   "referee": null
+  },
+  {
+   "n": 54,
+   "group": "A",
+   "date": "2026-06-24",
+   "time": "7:00 p.m. UTC−6",
+   "home": "RSA",
+   "away": "KOR",
+   "venue": "Estadio BBVA, Guadalupe",
+   "referee": null
+  },
+  {
+   "n": 55,
+   "group": "E",
+   "date": "2026-06-25",
+   "time": "4:00 p.m. UTC−4",
+   "home": "CUW",
+   "away": "CIV",
+   "venue": "Lincoln Financial Field, Philadelphia",
+   "referee": null
+  },
+  {
+   "n": 56,
+   "group": "E",
+   "date": "2026-06-25",
+   "time": "4:00 p.m. UTC−4",
+   "home": "ECU",
+   "away": "GER",
+   "venue": "MetLife Stadium, East Rutherford",
+   "referee": null
+  },
+  {
+   "n": 57,
+   "group": "F",
+   "date": "2026-06-25",
+   "time": "6:00 p.m. UTC−5",
+   "home": "JPN",
+   "away": "SWE",
+   "venue": "AT&T Stadium, Arlington",
+   "referee": null
+  },
+  {
+   "n": 58,
+   "group": "F",
+   "date": "2026-06-25",
+   "time": "6:00 p.m. UTC−5",
+   "home": "TUN",
+   "away": "NED",
+   "venue": "Arrowhead Stadium, Kansas City",
+   "referee": null
+  },
+  {
+   "n": 59,
+   "group": "D",
+   "date": "2026-06-25",
+   "time": "7:00 p.m. UTC−7",
+   "home": "TUR",
+   "away": "USA",
+   "venue": "SoFi Stadium, Inglewood",
+   "referee": null
+  },
+  {
+   "n": 60,
+   "group": "D",
+   "date": "2026-06-25",
+   "time": "7:00 p.m. UTC−7",
+   "home": "PAR",
+   "away": "AUS",
+   "venue": "Levi's Stadium, Santa Clara",
+   "referee": null
+  },
+  {
+   "n": 61,
+   "group": "I",
+   "date": "2026-06-26",
+   "time": "3:00 p.m. UTC−4",
+   "home": "NOR",
+   "away": "FRA",
+   "venue": "Gillette Stadium, Foxborough",
+   "referee": null
+  },
+  {
+   "n": 62,
+   "group": "I",
+   "date": "2026-06-26",
+   "time": "3:00 p.m. UTC−4",
+   "home": "SEN",
+   "away": "IRQ",
+   "venue": "BMO Field, Toronto",
+   "referee": null
+  },
+  {
+   "n": 63,
+   "group": "G",
+   "date": "2026-06-26",
+   "time": "8:00 p.m. UTC−7",
+   "home": "EGY",
+   "away": "IRN",
+   "venue": "Lumen Field, Seattle",
+   "referee": null
+  },
+  {
+   "n": 64,
+   "group": "G",
+   "date": "2026-06-26",
+   "time": "8:00 p.m. UTC−7",
+   "home": "NZL",
+   "away": "BEL",
+   "venue": "BC Place, Vancouver",
+   "referee": null
+  },
+  {
+   "n": 65,
+   "group": "H",
+   "date": "2026-06-26",
+   "time": "7:00 p.m. UTC−5",
+   "home": "CPV",
+   "away": "KSA",
+   "venue": "NRG Stadium, Houston",
+   "referee": null
+  },
+  {
+   "n": 66,
+   "group": "H",
+   "date": "2026-06-26",
+   "time": "6:00 p.m. UTC−6",
+   "home": "URU",
+   "away": "ESP",
+   "venue": "Estadio Akron, Zapopan",
+   "referee": null
+  },
+  {
+   "n": 67,
+   "group": "L",
+   "date": "2026-06-27",
+   "time": "5:00 p.m. UTC−4",
+   "home": "PAN",
+   "away": "ENG",
+   "venue": "MetLife Stadium, East Rutherford",
+   "referee": null
+  },
+  {
+   "n": 68,
+   "group": "L",
+   "date": "2026-06-27",
+   "time": "5:00 p.m. UTC−4",
+   "home": "CRO",
+   "away": "GHA",
+   "venue": "Lincoln Financial Field, Philadelphia",
+   "referee": null
+  },
+  {
+   "n": 69,
+   "group": "J",
+   "date": "2026-06-27",
+   "time": "9:00 p.m. UTC−5",
+   "home": "ALG",
+   "away": "AUT",
+   "venue": "Arrowhead Stadium, Kansas City",
+   "referee": null
+  },
+  {
+   "n": 70,
+   "group": "J",
+   "date": "2026-06-27",
+   "time": "9:00 p.m. UTC−5",
+   "home": "JOR",
+   "away": "ARG",
+   "venue": "AT&T Stadium, Arlington",
+   "referee": null
+  },
+  {
+   "n": 71,
+   "group": "K",
+   "date": "2026-06-27",
+   "time": "7:30 p.m. UTC−4",
+   "home": "COL",
+   "away": "POR",
+   "venue": "Hard Rock Stadium, Miami Gardens",
+   "referee": null
+  },
+  {
+   "n": 72,
+   "group": "K",
+   "date": "2026-06-27",
+   "time": "7:30 p.m. UTC−4",
+   "home": "COD",
+   "away": "UZB",
+   "venue": "Mercedes-Benz Stadium, Atlanta",
+   "referee": null
+  }
+ ],
+ "referees": [
+  {
+   "name": "Amin Omar",
+   "country": "Egypt"
+  },
+  {
+   "name": "Danny Makkelie",
+   "country": "Netherlands"
+  },
+  {
+   "name": "Facundo Tello",
+   "country": "Argentina"
+  },
+  {
+   "name": "Jesús Valenzuela",
+   "country": "Venezuela"
+  },
+  {
+   "name": "Mustapha Ghorbal",
+   "country": "Algeria"
+  },
+  {
+   "name": "Saíd Martínez",
+   "country": "Honduras"
+  },
+  {
+   "name": "Slavko Vinčić",
+   "country": "Slovenia"
+  },
+  {
+   "name": "Wilton Sampaio",
+   "country": "Brazil"
+  }
+ ]
+}
