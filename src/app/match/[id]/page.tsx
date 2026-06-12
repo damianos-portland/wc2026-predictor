@@ -7,6 +7,9 @@ import { listMatches } from "@/lib/mock";
 import Analytics from "@/components/Analytics";
 import PredictionPanel from "@/components/Prediction";
 import OddsAnalyzer from "@/components/OddsAnalyzer";
+import MatchTabs from "@/components/MatchTabs";
+import LineBuilder from "@/components/LineBuilder";
+import { buildMarketModels } from "@/lib/markets";
 
 export function generateStaticParams() {
   return listMatches().map((m) => ({ id: m.id }));
@@ -18,6 +21,7 @@ export default async function MatchPage({ params }: { params: Promise<{ id: stri
   if (!a) notFound();
   const pred = predict(a);
   const sample = sampleOddsFromPrediction(pred, a.home, a.away);
+  const models = buildMarketModels(a, pred);
   const kickoff = new Date(a.match.kickoff).toLocaleString("en-GB", { weekday: "long", day: "2-digit", month: "long", hour: "2-digit", minute: "2-digit" });
 
   return (
@@ -45,19 +49,19 @@ export default async function MatchPage({ params }: { params: Promise<{ id: stri
         </div>
       </div>
 
-      <div className="mt-6 grid gap-6 lg:grid-cols-[1fr_380px]">
-        <div className="space-y-6">
-          <PredictionPanel pred={pred} home={a.home} away={a.away} />
-          <div>
-            <h2 className="mb-3 text-lg font-semibold">Match analytics <span className="text-xs font-normal text-muted">— public sources, every data point linked</span></h2>
-            <Analytics a={a} />
+      <MatchTabs
+        overview={
+          <div className="space-y-6">
+            <PredictionPanel pred={pred} home={a.home} away={a.away} />
+            <div>
+              <h2 className="mb-3 text-lg font-semibold">Match analytics <span className="text-xs font-normal text-muted">— public sources, every data point linked</span></h2>
+              <Analytics a={a} />
+            </div>
           </div>
-        </div>
-        <div className="lg:sticky lg:top-20 lg:h-fit">
-          <h2 className="mb-3 text-lg font-semibold">Value finder</h2>
-          <OddsAnalyzer matchId={a.match.id} sampleOdds={sample} />
-        </div>
-      </div>
+        }
+        lines={<LineBuilder models={models} home={a.home} away={a.away} />}
+        value={<div className="max-w-2xl"><OddsAnalyzer matchId={a.match.id} sampleOdds={sample} /></div>}
+      />
     </main>
   );
 }

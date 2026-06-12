@@ -52,13 +52,18 @@ function genStats(team: Team): TeamStats {
   const goalsFor = r1(clamp(1.15 + s * 0.9 + j(), 0.7, 2.2));
   const goalsAgainst = r1(clamp(1.45 - s * 0.65 + j(), 0.7, 1.7));
   const shots = r1(clamp(10 + s * 6 + j() * 3, 7, 18));
+  const possession = Math.round(clamp(45 + s * 18 + j() * 10, 38, 68));
   return {
     teamId: team.id, matches: 10, goalsFor, goalsAgainst,
     xgFor: r1(goalsFor * 0.97), xgAgainst: r1(goalsAgainst * 1.02),
     cleanSheetPct: r2(clamp(0.25 + s * 0.4 + j(), 0.1, 0.7)),
-    possession: Math.round(clamp(45 + s * 18 + j() * 10, 38, 68)),
+    possession,
     shots, shotsOnTarget: r1(shots * 0.37), corners: r1(clamp(4 + s * 3 + j() * 2, 3, 8)),
     fouls: r1(clamp(13 - s * 2.5 + j() * 2, 8, 16)), cardsFor: r2(clamp(2.2 - s * 0.9 + j(), 1.0, 2.8)),
+    offsides: r1(clamp(1.7 + s * 1.1 + j(), 0.8, 3.4)),
+    throwIns: r1(clamp(22 + (50 - possession) * 0.12 + j() * 4, 16, 30)),
+    goalKicks: r1(clamp(8.5 - s * 2 + j() * 2, 5, 12)),
+    passes: Math.round(clamp(330 + (possession - 45) * 13 + s * 40 + j() * 60, 250, 720)),
     sources: statSources,
   };
 }

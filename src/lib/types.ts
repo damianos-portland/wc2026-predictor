@@ -45,6 +45,10 @@ export interface TeamStats {
   corners: number;
   fouls: number; // committed per game
   cardsFor: number; // yellow+red per game received
+  offsides: number; // per game
+  throwIns: number; // per game
+  goalKicks: number; // per game
+  passes: number; // per game
   sources: SourceRef[];
 }
 

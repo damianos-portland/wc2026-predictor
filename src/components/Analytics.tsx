@@ -42,6 +42,8 @@ const ROWS: { key: keyof TeamStats; label: string; better: "high" | "low"; fmt?:
   { key: "corners", label: "Corners /g", better: "high" },
   { key: "fouls", label: "Fouls /g", better: "low" },
   { key: "cardsFor", label: "Cards /g", better: "low" },
+  { key: "offsides", label: "Offsides /g", better: "low" },
+  { key: "passes", label: "Passes /g", better: "high", fmt: (n) => `${Math.round(n)}` },
 ];
 
 function StatsCard({ a }: { a: MatchAnalytics }) {
