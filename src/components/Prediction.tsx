@@ -1,4 +1,5 @@
 import type { Prediction, Team, OverUnder } from "@/lib/types";
+import { isHost } from "@/lib/engine";
 import { Section, ProbBar, Pct, ConfidencePill, SourceList } from "./ui";
 
 export default function PredictionPanel({ pred, home, away }: { pred: Prediction; home: Team; away: Team }) {
@@ -8,9 +9,9 @@ export default function PredictionPanel({ pred, home, away }: { pred: Prediction
       <Section title="Prediction — Match result" hint={`xG ${pred.expectedGoals.home} – ${pred.expectedGoals.away}`}>
         <div className="mb-3"><ConfidencePill level={pred.confidence} /></div>
         <div className="grid gap-3">
-          <ProbBar label={`${home.flag} ${home.name} (Home)`} value={pred.oneXtwo.home} />
+          <ProbBar label={`${home.flag} ${home.name}${isHost(home.id) ? " · host 🏟️" : ""}`} value={pred.oneXtwo.home} />
           <ProbBar label="Draw" value={pred.oneXtwo.draw} tone="muted" />
-          <ProbBar label={`${away.flag} ${away.name} (Away)`} value={pred.oneXtwo.away} />
+          <ProbBar label={`${away.flag} ${away.name}${isHost(away.id) ? " · host 🏟️" : ""}`} value={pred.oneXtwo.away} />
         </div>
       </Section>
 

@@ -22,7 +22,11 @@ const clamp = (x: number, lo: number, hi: number) => Math.max(lo, Math.min(hi, x
 const blend = (g: number, xg?: number) => (xg != null ? 0.5 * g + 0.5 * xg : g);
 
 const AVG_GOALS = 1.35; // baseline goals per team per game
-const HOME_ADV = 1.08;
+const HOST_ADV = 1.10; // host-crowd advantage — applies ONLY to host nations at home
+// The 3 hosts are the only teams playing real home games; every other WC match is
+// at a neutral venue, where "home/away" is just the fixture's listing order.
+export const HOSTS = new Set(["usa", "mex", "can"]);
+export const isHost = (teamId: string) => HOSTS.has(teamId);
 
 // ── expected goals from team strength, ratings, form, injuries ───────────────
 function expectedGoals(a: MatchAnalytics) {
@@ -38,9 +42,12 @@ function expectedGoals(a: MatchAnalytics) {
   const formA = formFactor(a, a.match.awayId);
   const injH = injuryFactor(a, a.match.homeId);
   const injA = injuryFactor(a, a.match.awayId);
+  // home advantage only when a host plays at home — neutral otherwise
+  const advH = isHost(a.match.homeId) ? HOST_ADV : 1;
+  const advA = isHost(a.match.awayId) ? HOST_ADV : 1;
 
-  let lh = AVG_GOALS * atkH * defA * HOME_ADV * eloMult * formH * injH;
-  let la = AVG_GOALS * atkA * defH * (1 / eloMult) * formA * injA;
+  let lh = AVG_GOALS * atkH * defA * advH * eloMult * formH * injH;
+  let la = AVG_GOALS * atkA * defH * advA * (1 / eloMult) * formA * injA;
   lh = clamp(lh, 0.2, 4.5);
   la = clamp(la, 0.2, 4.5);
   return { home: round(lh), away: round(la) };
@@ -144,6 +151,8 @@ function reasoning(a: MatchAnalytics, eg: { home: number; away: number }): strin
   const eloGap = a.home.elo - a.away.elo;
   if (Math.abs(eloGap) > 40) f.push(`${eloGap > 0 ? a.home.name : a.away.name} are the stronger side by rating (Elo gap ${Math.abs(eloGap)}).`);
   f.push(`Expected goals model: ${a.home.name} ${eg.home} – ${eg.away} ${a.away.name}.`);
+  const host = isHost(a.match.homeId) ? a.home.name : isHost(a.match.awayId) ? a.away.name : null;
+  f.push(host ? `${host} carry home advantage as a tournament host.` : `Neutral venue — no home advantage applied (only USA, Mexico & Canada play at home).`);
   const ph = a.homeForm.results.filter((r) => r.result === "W").length;
   const pa = a.awayForm.results.filter((r) => r.result === "W").length;
   f.push(`Recent form (last ${a.homeForm.results.length}): ${a.home.name} ${ph} wins · ${a.away.name} ${pa} wins.`);
