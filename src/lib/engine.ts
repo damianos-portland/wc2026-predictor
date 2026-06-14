@@ -110,7 +110,21 @@ function refereeMarkets(a: MatchAnalytics): { cards: Prediction["cards"]; fouls:
   const fouls = { expected: expFouls, lines: [overUnder(expFouls, 21.5), overUnder(expFouls, 24.5)] };
   const penalty = { yes: penYes, no: round(1 - penYes) };
 
-  if (!ref) return { cards, fouls, penalty, impact: null };
+  // No referee appointed yet → provisional tournament-average profile (clearly labelled)
+  if (!ref) {
+    const impact: RefereeImpact = {
+      referee: "Referee TBA — tournament average",
+      sampleSize: 0,
+      avgFouls: refFouls,
+      avgYellow: refY,
+      avgRed: refR,
+      penaltiesPerMatch: refPen,
+      notes: ["No official appointed yet — using tournament-average tendencies. Re-check closer to kickoff for the real referee."],
+      confidence: "low",
+      sources: [],
+    };
+    return { cards, fouls, penalty, impact };
+  }
 
   const notes: string[] = [];
   if (ref.avgYellow >= 5) notes.push(`High card referee (${ref.avgYellow.toFixed(1)} yellows/match) → leans card overs.`);
