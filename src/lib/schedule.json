@@ -243,17 +243,7 @@
  },
  "matches": [
   {
-   "n": 0,
-   "group": "A",
-   "date": "2026-06-11",
-   "time": "1:00 p.m. UTC−6",
-   "home": "MEX",
-   "away": "RSA",
-   "venue": "Estadio Azteca, Mexico City",
-   "referee": "Wilton Sampaio"
-  },
-  {
-   "n": 0,
+   "n": 1,
    "group": "A",
    "date": "2026-06-11",
    "time": "8:00 p.m. UTC−6",
@@ -263,7 +253,17 @@
    "referee": "Amin Omar"
   },
   {
-   "n": 0,
+   "n": 2,
+   "group": "A",
+   "date": "2026-06-11",
+   "time": "1:00 p.m. UTC−6",
+   "home": "MEX",
+   "away": "RSA",
+   "venue": "Estadio Azteca, Mexico City",
+   "referee": "Wilton Sampaio"
+  },
+  {
+   "n": 3,
    "group": "B",
    "date": "2026-06-12",
    "time": "3:00 p.m. UTC−4",
@@ -273,37 +273,7 @@
    "referee": "Facundo Tello"
   },
   {
-   "n": 0,
-   "group": "B",
-   "date": "2026-06-13",
-   "time": "12:00 p.m. UTC−7",
-   "home": "QAT",
-   "away": "SUI",
-   "venue": "Levi's Stadium, Santa Clara",
-   "referee": "Saíd Martínez"
-  },
-  {
-   "n": 0,
-   "group": "C",
-   "date": "2026-06-13",
-   "time": "6:00 p.m. UTC−4",
-   "home": "BRA",
-   "away": "MAR",
-   "venue": "MetLife Stadium, East Rutherford",
-   "referee": "Slavko Vinčić"
-  },
-  {
-   "n": 0,
-   "group": "C",
-   "date": "2026-06-13",
-   "time": "9:00 p.m. UTC−4",
-   "home": "HAI",
-   "away": "SCO",
-   "venue": "Gillette Stadium, Foxborough",
-   "referee": "Mustapha Ghorbal"
-  },
-  {
-   "n": 0,
+   "n": 4,
    "group": "D",
    "date": "2026-06-12",
    "time": "6:00 p.m. UTC−7",
@@ -313,7 +283,37 @@
    "referee": "Danny Makkelie"
   },
   {
-   "n": 0,
+   "n": 5,
+   "group": "B",
+   "date": "2026-06-13",
+   "time": "12:00 p.m. UTC−7",
+   "home": "QAT",
+   "away": "SUI",
+   "venue": "Levi's Stadium, Santa Clara",
+   "referee": "Saíd Martínez"
+  },
+  {
+   "n": 6,
+   "group": "C",
+   "date": "2026-06-13",
+   "time": "6:00 p.m. UTC−4",
+   "home": "BRA",
+   "away": "MAR",
+   "venue": "MetLife Stadium, East Rutherford",
+   "referee": "Slavko Vinčić"
+  },
+  {
+   "n": 7,
+   "group": "C",
+   "date": "2026-06-13",
+   "time": "9:00 p.m. UTC−4",
+   "home": "HAI",
+   "away": "SCO",
+   "venue": "Gillette Stadium, Foxborough",
+   "referee": "Mustapha Ghorbal"
+  },
+  {
+   "n": 8,
    "group": "D",
    "date": "2026-06-13",
    "time": "9:00 p.m. UTC−7",
@@ -321,16 +321,6 @@
    "away": "TUR",
    "venue": "BC Place, Vancouver",
    "referee": "Jesús Valenzuela"
-  },
-  {
-   "n": 0,
-   "group": "E",
-   "date": "2026-06-14",
-   "time": "12:00 p.m. UTC−5",
-   "home": "GER",
-   "away": "CUW",
-   "venue": "NRG Stadium, Houston",
-   "referee": "Jalal Jayed"
   },
   {
    "n": 9,
@@ -341,6 +331,16 @@
    "away": "ECU",
    "venue": "Lincoln Financial Field, Philadelphia",
    "referee": "François Letexier"
+  },
+  {
+   "n": 10,
+   "group": "E",
+   "date": "2026-06-14",
+   "time": "12:00 p.m. UTC−5",
+   "home": "GER",
+   "away": "CUW",
+   "venue": "NRG Stadium, Houston",
+   "referee": "Jalal Jayed"
   },
   {
    "n": 11,
@@ -364,26 +364,16 @@
   },
   {
    "n": 13,
-   "group": "H",
+   "group": "G",
    "date": "2026-06-15",
-   "time": "6:00 p.m. UTC−4",
-   "home": "KSA",
-   "away": "URU",
-   "venue": "Hard Rock Stadium, Miami Gardens",
-   "referee": "Maurizio Mariani"
+   "time": "12:00 p.m. UTC−7",
+   "home": "BEL",
+   "away": "EGY",
+   "venue": "Lumen Field, Seattle",
+   "referee": "Ramon Abatti"
   },
   {
    "n": 14,
-   "group": "H",
-   "date": "2026-06-15",
-   "time": "12:00 p.m. UTC−4",
-   "home": "ESP",
-   "away": "CPV",
-   "venue": "Mercedes-Benz Stadium, Atlanta",
-   "referee": "Adham Makhadmeh"
-  },
-  {
-   "n": 15,
    "group": "G",
    "date": "2026-06-15",
    "time": "6:00 p.m. UTC−7",
@@ -393,14 +383,24 @@
    "referee": "César Arturo Ramos"
   },
   {
-   "n": 16,
-   "group": "G",
+   "n": 15,
+   "group": "H",
    "date": "2026-06-15",
-   "time": "12:00 p.m. UTC−7",
-   "home": "BEL",
-   "away": "EGY",
-   "venue": "Lumen Field, Seattle",
-   "referee": "Ramon Abatti"
+   "time": "12:00 p.m. UTC−4",
+   "home": "ESP",
+   "away": "CPV",
+   "venue": "Mercedes-Benz Stadium, Atlanta",
+   "referee": "Adham Makhadmeh"
+  },
+  {
+   "n": 16,
+   "group": "H",
+   "date": "2026-06-15",
+   "time": "6:00 p.m. UTC−4",
+   "home": "KSA",
+   "away": "URU",
+   "venue": "Hard Rock Stadium, Miami Gardens",
+   "referee": "Maurizio Mariani"
   },
   {
    "n": 17,
@@ -444,26 +444,6 @@
   },
   {
    "n": 21,
-   "group": "L",
-   "date": "2026-06-17",
-   "time": "7:00 p.m. UTC−4",
-   "home": "GHA",
-   "away": "PAN",
-   "venue": "BMO Field, Toronto",
-   "referee": "Glenn Nyberg"
-  },
-  {
-   "n": 22,
-   "group": "L",
-   "date": "2026-06-17",
-   "time": "3:00 p.m. UTC−5",
-   "home": "ENG",
-   "away": "CRO",
-   "venue": "AT&T Stadium, Arlington",
-   "referee": "Clément Turpin"
-  },
-  {
-   "n": 23,
    "group": "K",
    "date": "2026-06-17",
    "time": "12:00 p.m. UTC−5",
@@ -473,7 +453,7 @@
    "referee": "Abdulrahman Al-Jassim"
   },
   {
-   "n": 24,
+   "n": 22,
    "group": "K",
    "date": "2026-06-17",
    "time": "8:00 p.m. UTC−6",
@@ -481,6 +461,26 @@
    "away": "COL",
    "venue": "Estadio Azteca, Mexico City",
    "referee": "Anthony Taylor (referee)"
+  },
+  {
+   "n": 23,
+   "group": "L",
+   "date": "2026-06-17",
+   "time": "3:00 p.m. UTC−5",
+   "home": "ENG",
+   "away": "CRO",
+   "venue": "AT&T Stadium, Arlington",
+   "referee": "Clément Turpin"
+  },
+  {
+   "n": 24,
+   "group": "L",
+   "date": "2026-06-17",
+   "time": "7:00 p.m. UTC−4",
+   "home": "GHA",
+   "away": "PAN",
+   "venue": "BMO Field, Toronto",
+   "referee": "Glenn Nyberg"
   },
   {
    "n": 25,
@@ -494,12 +494,12 @@
   },
   {
    "n": 26,
-   "group": "B",
+   "group": "A",
    "date": "2026-06-18",
-   "time": "12:00 p.m. UTC−7",
-   "home": "SUI",
-   "away": "BIH",
-   "venue": "SoFi Stadium, Inglewood",
+   "time": "7:00 p.m. UTC−6",
+   "home": "MEX",
+   "away": "KOR",
+   "venue": "Estadio Akron, Zapopan",
    "referee": null
   },
   {
@@ -514,12 +514,12 @@
   },
   {
    "n": 28,
-   "group": "A",
+   "group": "B",
    "date": "2026-06-18",
-   "time": "7:00 p.m. UTC−6",
-   "home": "MEX",
-   "away": "KOR",
-   "venue": "Estadio Akron, Zapopan",
+   "time": "12:00 p.m. UTC−7",
+   "home": "SUI",
+   "away": "BIH",
+   "venue": "SoFi Stadium, Inglewood",
    "referee": null
   },
   {
@@ -566,20 +566,20 @@
    "n": 33,
    "group": "E",
    "date": "2026-06-20",
-   "time": "4:00 p.m. UTC−4",
-   "home": "GER",
-   "away": "CIV",
-   "venue": "BMO Field, Toronto",
+   "time": "7:00 p.m. UTC−5",
+   "home": "ECU",
+   "away": "CUW",
+   "venue": "Arrowhead Stadium, Kansas City",
    "referee": null
   },
   {
    "n": 34,
    "group": "E",
    "date": "2026-06-20",
-   "time": "7:00 p.m. UTC−5",
-   "home": "ECU",
-   "away": "CUW",
-   "venue": "Arrowhead Stadium, Kansas City",
+   "time": "4:00 p.m. UTC−4",
+   "home": "GER",
+   "away": "CIV",
+   "venue": "BMO Field, Toronto",
    "referee": null
   },
   {
@@ -604,26 +604,6 @@
   },
   {
    "n": 37,
-   "group": "H",
-   "date": "2026-06-21",
-   "time": "6:00 p.m. UTC−4",
-   "home": "URU",
-   "away": "CPV",
-   "venue": "Hard Rock Stadium, Miami Gardens",
-   "referee": null
-  },
-  {
-   "n": 38,
-   "group": "H",
-   "date": "2026-06-21",
-   "time": "12:00 p.m. UTC−4",
-   "home": "ESP",
-   "away": "KSA",
-   "venue": "Mercedes-Benz Stadium, Atlanta",
-   "referee": null
-  },
-  {
-   "n": 39,
    "group": "G",
    "date": "2026-06-21",
    "time": "12:00 p.m. UTC−7",
@@ -633,7 +613,7 @@
    "referee": null
   },
   {
-   "n": 40,
+   "n": 38,
    "group": "G",
    "date": "2026-06-21",
    "time": "6:00 p.m. UTC−7",
@@ -643,23 +623,43 @@
    "referee": null
   },
   {
-   "n": 41,
-   "group": "I",
-   "date": "2026-06-22",
-   "time": "8:00 p.m. UTC−4",
-   "home": "NOR",
-   "away": "SEN",
-   "venue": "MetLife Stadium, East Rutherford",
+   "n": 39,
+   "group": "H",
+   "date": "2026-06-21",
+   "time": "12:00 p.m. UTC−4",
+   "home": "ESP",
+   "away": "KSA",
+   "venue": "Mercedes-Benz Stadium, Atlanta",
    "referee": null
   },
   {
-   "n": 42,
+   "n": 40,
+   "group": "H",
+   "date": "2026-06-21",
+   "time": "6:00 p.m. UTC−4",
+   "home": "URU",
+   "away": "CPV",
+   "venue": "Hard Rock Stadium, Miami Gardens",
+   "referee": null
+  },
+  {
+   "n": 41,
    "group": "I",
    "date": "2026-06-22",
    "time": "5:00 p.m. UTC−4",
    "home": "FRA",
    "away": "IRQ",
    "venue": "Lincoln Financial Field, Philadelphia",
+   "referee": null
+  },
+  {
+   "n": 42,
+   "group": "I",
+   "date": "2026-06-22",
+   "time": "8:00 p.m. UTC−4",
+   "home": "NOR",
+   "away": "SEN",
+   "venue": "MetLife Stadium, East Rutherford",
    "referee": null
   },
   {
@@ -684,36 +684,6 @@
   },
   {
    "n": 45,
-   "group": "L",
-   "date": "2026-06-23",
-   "time": "4:00 p.m. UTC−4",
-   "home": "ENG",
-   "away": "GHA",
-   "venue": "Gillette Stadium, Foxborough",
-   "referee": null
-  },
-  {
-   "n": 46,
-   "group": "L",
-   "date": "2026-06-23",
-   "time": "7:00 p.m. UTC−4",
-   "home": "PAN",
-   "away": "CRO",
-   "venue": "BMO Field, Toronto",
-   "referee": null
-  },
-  {
-   "n": 47,
-   "group": "K",
-   "date": "2026-06-23",
-   "time": "12:00 p.m. UTC−5",
-   "home": "POR",
-   "away": "UZB",
-   "venue": "NRG Stadium, Houston",
-   "referee": null
-  },
-  {
-   "n": 48,
    "group": "K",
    "date": "2026-06-23",
    "time": "8:00 p.m. UTC−6",
@@ -723,47 +693,37 @@
    "referee": null
   },
   {
+   "n": 46,
+   "group": "K",
+   "date": "2026-06-23",
+   "time": "12:00 p.m. UTC−5",
+   "home": "POR",
+   "away": "UZB",
+   "venue": "NRG Stadium, Houston",
+   "referee": null
+  },
+  {
+   "n": 47,
+   "group": "L",
+   "date": "2026-06-23",
+   "time": "4:00 p.m. UTC−4",
+   "home": "ENG",
+   "away": "GHA",
+   "venue": "Gillette Stadium, Foxborough",
+   "referee": null
+  },
+  {
+   "n": 48,
+   "group": "L",
+   "date": "2026-06-23",
+   "time": "7:00 p.m. UTC−4",
+   "home": "PAN",
+   "away": "CRO",
+   "venue": "BMO Field, Toronto",
+   "referee": null
+  },
+  {
    "n": 49,
-   "group": "C",
-   "date": "2026-06-24",
-   "time": "6:00 p.m. UTC−4",
-   "home": "SCO",
-   "away": "BRA",
-   "venue": "Hard Rock Stadium, Miami Gardens",
-   "referee": null
-  },
-  {
-   "n": 50,
-   "group": "C",
-   "date": "2026-06-24",
-   "time": "6:00 p.m. UTC−4",
-   "home": "MAR",
-   "away": "HAI",
-   "venue": "Mercedes-Benz Stadium, Atlanta",
-   "referee": null
-  },
-  {
-   "n": 51,
-   "group": "B",
-   "date": "2026-06-24",
-   "time": "12:00 p.m. UTC−7",
-   "home": "SUI",
-   "away": "CAN",
-   "venue": "BC Place, Vancouver",
-   "referee": null
-  },
-  {
-   "n": 52,
-   "group": "B",
-   "date": "2026-06-24",
-   "time": "12:00 p.m. UTC−7",
-   "home": "BIH",
-   "away": "QAT",
-   "venue": "Lumen Field, Seattle",
-   "referee": null
-  },
-  {
-   "n": 53,
    "group": "A",
    "date": "2026-06-24",
    "time": "7:00 p.m. UTC−6",
@@ -773,7 +733,7 @@
    "referee": null
   },
   {
-   "n": 54,
+   "n": 50,
    "group": "A",
    "date": "2026-06-24",
    "time": "7:00 p.m. UTC−6",
@@ -783,57 +743,47 @@
    "referee": null
   },
   {
+   "n": 51,
+   "group": "B",
+   "date": "2026-06-24",
+   "time": "12:00 p.m. UTC−7",
+   "home": "BIH",
+   "away": "QAT",
+   "venue": "Lumen Field, Seattle",
+   "referee": null
+  },
+  {
+   "n": 52,
+   "group": "B",
+   "date": "2026-06-24",
+   "time": "12:00 p.m. UTC−7",
+   "home": "SUI",
+   "away": "CAN",
+   "venue": "BC Place, Vancouver",
+   "referee": null
+  },
+  {
+   "n": 53,
+   "group": "C",
+   "date": "2026-06-24",
+   "time": "6:00 p.m. UTC−4",
+   "home": "MAR",
+   "away": "HAI",
+   "venue": "Mercedes-Benz Stadium, Atlanta",
+   "referee": null
+  },
+  {
+   "n": 54,
+   "group": "C",
+   "date": "2026-06-24",
+   "time": "6:00 p.m. UTC−4",
+   "home": "SCO",
+   "away": "BRA",
+   "venue": "Hard Rock Stadium, Miami Gardens",
+   "referee": null
+  },
+  {
    "n": 55,
-   "group": "E",
-   "date": "2026-06-25",
-   "time": "4:00 p.m. UTC−4",
-   "home": "CUW",
-   "away": "CIV",
-   "venue": "Lincoln Financial Field, Philadelphia",
-   "referee": null
-  },
-  {
-   "n": 56,
-   "group": "E",
-   "date": "2026-06-25",
-   "time": "4:00 p.m. UTC−4",
-   "home": "ECU",
-   "away": "GER",
-   "venue": "MetLife Stadium, East Rutherford",
-   "referee": null
-  },
-  {
-   "n": 57,
-   "group": "F",
-   "date": "2026-06-25",
-   "time": "6:00 p.m. UTC−5",
-   "home": "JPN",
-   "away": "SWE",
-   "venue": "AT&T Stadium, Arlington",
-   "referee": null
-  },
-  {
-   "n": 58,
-   "group": "F",
-   "date": "2026-06-25",
-   "time": "6:00 p.m. UTC−5",
-   "home": "TUN",
-   "away": "NED",
-   "venue": "Arrowhead Stadium, Kansas City",
-   "referee": null
-  },
-  {
-   "n": 59,
-   "group": "D",
-   "date": "2026-06-25",
-   "time": "7:00 p.m. UTC−7",
-   "home": "TUR",
-   "away": "USA",
-   "venue": "SoFi Stadium, Inglewood",
-   "referee": null
-  },
-  {
-   "n": 60,
    "group": "D",
    "date": "2026-06-25",
    "time": "7:00 p.m. UTC−7",
@@ -843,27 +793,57 @@
    "referee": null
   },
   {
+   "n": 56,
+   "group": "D",
+   "date": "2026-06-25",
+   "time": "7:00 p.m. UTC−7",
+   "home": "TUR",
+   "away": "USA",
+   "venue": "SoFi Stadium, Inglewood",
+   "referee": null
+  },
+  {
+   "n": 57,
+   "group": "E",
+   "date": "2026-06-25",
+   "time": "4:00 p.m. UTC−4",
+   "home": "CUW",
+   "away": "CIV",
+   "venue": "Lincoln Financial Field, Philadelphia",
+   "referee": null
+  },
+  {
+   "n": 58,
+   "group": "E",
+   "date": "2026-06-25",
+   "time": "4:00 p.m. UTC−4",
+   "home": "ECU",
+   "away": "GER",
+   "venue": "MetLife Stadium, East Rutherford",
+   "referee": null
+  },
+  {
+   "n": 59,
+   "group": "F",
+   "date": "2026-06-25",
+   "time": "6:00 p.m. UTC−5",
+   "home": "JPN",
+   "away": "SWE",
+   "venue": "AT&T Stadium, Arlington",
+   "referee": null
+  },
+  {
+   "n": 60,
+   "group": "F",
+   "date": "2026-06-25",
+   "time": "6:00 p.m. UTC−5",
+   "home": "TUN",
+   "away": "NED",
+   "venue": "Arrowhead Stadium, Kansas City",
+   "referee": null
+  },
+  {
    "n": 61,
-   "group": "I",
-   "date": "2026-06-26",
-   "time": "3:00 p.m. UTC−4",
-   "home": "NOR",
-   "away": "FRA",
-   "venue": "Gillette Stadium, Foxborough",
-   "referee": null
-  },
-  {
-   "n": 62,
-   "group": "I",
-   "date": "2026-06-26",
-   "time": "3:00 p.m. UTC−4",
-   "home": "SEN",
-   "away": "IRQ",
-   "venue": "BMO Field, Toronto",
-   "referee": null
-  },
-  {
-   "n": 63,
    "group": "G",
    "date": "2026-06-26",
    "time": "8:00 p.m. UTC−7",
@@ -873,7 +853,7 @@
    "referee": null
   },
   {
-   "n": 64,
+   "n": 62,
    "group": "G",
    "date": "2026-06-26",
    "time": "8:00 p.m. UTC−7",
@@ -883,7 +863,7 @@
    "referee": null
   },
   {
-   "n": 65,
+   "n": 63,
    "group": "H",
    "date": "2026-06-26",
    "time": "7:00 p.m. UTC−5",
@@ -893,7 +873,7 @@
    "referee": null
   },
   {
-   "n": 66,
+   "n": 64,
    "group": "H",
    "date": "2026-06-26",
    "time": "6:00 p.m. UTC−6",
@@ -903,27 +883,27 @@
    "referee": null
   },
   {
+   "n": 65,
+   "group": "I",
+   "date": "2026-06-26",
+   "time": "3:00 p.m. UTC−4",
+   "home": "NOR",
+   "away": "FRA",
+   "venue": "Gillette Stadium, Foxborough",
+   "referee": null
+  },
+  {
+   "n": 66,
+   "group": "I",
+   "date": "2026-06-26",
+   "time": "3:00 p.m. UTC−4",
+   "home": "SEN",
+   "away": "IRQ",
+   "venue": "BMO Field, Toronto",
+   "referee": null
+  },
+  {
    "n": 67,
-   "group": "L",
-   "date": "2026-06-27",
-   "time": "5:00 p.m. UTC−4",
-   "home": "PAN",
-   "away": "ENG",
-   "venue": "MetLife Stadium, East Rutherford",
-   "referee": null
-  },
-  {
-   "n": 68,
-   "group": "L",
-   "date": "2026-06-27",
-   "time": "5:00 p.m. UTC−4",
-   "home": "CRO",
-   "away": "GHA",
-   "venue": "Lincoln Financial Field, Philadelphia",
-   "referee": null
-  },
-  {
-   "n": 69,
    "group": "J",
    "date": "2026-06-27",
    "time": "9:00 p.m. UTC−5",
@@ -933,7 +913,7 @@
    "referee": null
   },
   {
-   "n": 70,
+   "n": 68,
    "group": "J",
    "date": "2026-06-27",
    "time": "9:00 p.m. UTC−5",
@@ -943,7 +923,17 @@
    "referee": null
   },
   {
-   "n": 71,
+   "n": 69,
+   "group": "K",
+   "date": "2026-06-27",
+   "time": "7:30 p.m. UTC−4",
+   "home": "COD",
+   "away": "UZB",
+   "venue": "Mercedes-Benz Stadium, Atlanta",
+   "referee": null
+  },
+  {
+   "n": 70,
    "group": "K",
    "date": "2026-06-27",
    "time": "7:30 p.m. UTC−4",
@@ -953,13 +943,23 @@
    "referee": null
   },
   {
-   "n": 72,
-   "group": "K",
+   "n": 71,
+   "group": "L",
    "date": "2026-06-27",
-   "time": "7:30 p.m. UTC−4",
-   "home": "COD",
-   "away": "UZB",
-   "venue": "Mercedes-Benz Stadium, Atlanta",
+   "time": "5:00 p.m. UTC−4",
+   "home": "CRO",
+   "away": "GHA",
+   "venue": "Lincoln Financial Field, Philadelphia",
+   "referee": null
+  },
+  {
+   "n": 72,
+   "group": "L",
+   "date": "2026-06-27",
+   "time": "5:00 p.m. UTC−4",
+   "home": "PAN",
+   "away": "ENG",
+   "venue": "MetLife Stadium, East Rutherford",
    "referee": null
   }
  ],

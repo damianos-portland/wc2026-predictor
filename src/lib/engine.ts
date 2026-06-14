@@ -65,27 +65,40 @@ function injuryFactor(a: MatchAnalytics, teamId: string): number {
 }
 
 // ── score matrix → markets ──────────────────────────────────────────────────
+// Dixon-Coles-style draw inflation — calibrated against early WC2026 results,
+// which showed the raw independent-Poisson model under-predicting draws (23%→33%
+// actual) and over-predicting Over 2.5. Boosts the score-grid diagonal (draws).
+const DRAW_BOOST = 1.25;
+
 function markets(lh: number, la: number, maxGoals = 8) {
-  let home = 0,
-    draw = 0,
-    away = 0,
-    btts = 0;
-  const scoreProbs: { score: string; prob: number }[] = [];
+  // build the (boosted) score grid, then normalise and derive every market from it
+  const cells: { i: number; j: number; p: number }[] = [];
+  let total = 0;
   for (let i = 0; i <= maxGoals; i++) {
     for (let j = 0; j <= maxGoals; j++) {
-      const p = pois(i, lh) * pois(j, la);
-      if (i > j) home += p;
-      else if (i === j) draw += p;
-      else away += p;
-      if (i >= 1 && j >= 1) btts += p;
-      scoreProbs.push({ score: `${i}-${j}`, prob: p });
+      let p = pois(i, lh) * pois(j, la);
+      if (i === j) p *= DRAW_BOOST;
+      cells.push({ i, j, p });
+      total += p;
     }
   }
-  const norm = home + draw + away;
-  const scorelines = scoreProbs.sort((x, y) => y.prob - x.prob).slice(0, 5).map((s) => ({ score: s.score, prob: round(s.prob) }));
-  const totals = (line: number) => overUnder(lh + la, line);
+  let home = 0, draw = 0, away = 0, btts = 0;
+  for (const c of cells) {
+    const p = c.p / total;
+    if (c.i > c.j) home += p;
+    else if (c.i === c.j) draw += p;
+    else away += p;
+    if (c.i >= 1 && c.j >= 1) btts += p;
+  }
+  const over = (line: number) => cells.reduce((s, c) => s + (c.i + c.j > line ? c.p / total : 0), 0);
+  const totals = (line: number) => ({ line, over: round(over(line)), under: round(1 - over(line)) });
+  const scorelines = cells
+    .map((c) => ({ score: `${c.i}-${c.j}`, prob: c.p / total }))
+    .sort((x, y) => y.prob - x.prob)
+    .slice(0, 5)
+    .map((s) => ({ score: s.score, prob: round(s.prob) }));
   return {
-    oneXtwo: { home: round(home / norm), draw: round(draw / norm), away: round(away / norm) },
+    oneXtwo: { home: round(home), draw: round(draw), away: round(away) },
     overUnder: [totals(1.5), totals(2.5), totals(3.5)],
     btts: { yes: round(btts), no: round(1 - btts) },
     scorelines,
